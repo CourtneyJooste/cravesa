@@ -163,7 +163,8 @@ span.typed-cursor {
 nav#menu span.fa.fa-bars{
 	font-size: 30px;
 	position: fixed;
-	left: 120px;
+	left: 20px;
+	top: 20px;
 	color: #e6efbc;
 	cursor: pointer;
 	z-index: 1;
