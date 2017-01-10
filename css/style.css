@@ -92,16 +92,15 @@ a:focus{
 	color: #ffffff;
 }
 
-#home a.down-btn span.fa.fa-angle-down {
-	font-size: 26px;
-	border: 1px solid #a990a7;
-	border-radius: 2px;
-	padding: 7px 5px;
+#home a.down-btn span.fa.fa-chevron-down {
+	font-size: 50px;
+	padding: 10px 5px;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 150px;
 	color: #ffffff;
 	cursor: pointer;
 }
+
 .content{
 	padding-top: 16%;
 }
