@@ -19,8 +19,7 @@ h2{
 	font-size: 30px;
 }
 h3{
-	font-size: 14px;
-	font-style: italic;
+	font-size: 29px;
 	font-weight: 100;
 	line-height: 26px;
 }
@@ -50,7 +49,7 @@ hr{
 	width: 50px;
 	border-color: #a990a7;
 }
-a {color: #222222}
+a {color: #ffffff}
 a:hover,
 a:focus{
 	color: #a990a7;
@@ -243,10 +242,12 @@ a.down-btn span.fa.fa-angle-down {
 .service{
 	border: 1px solid #a990a7;
 	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	transition: all 0.3s;
 	position: relative;
-	padding: 60px 25px;
+	padding: 40px 15px;
+	min-height: 350px;
+	max-height: 350px;
 }
 .service:hover>h4,
 .service:hover>span.fa{
@@ -254,11 +255,7 @@ a.down-btn span.fa.fa-angle-down {
 }
 .service:hover{
 	border-color: #a990a7;
-	margin-top: 0px;
-	margin-bottom: 0px;
 	cursor: pointer;
-	padding-top: 80px;
-	padding-bottom: 80px;
 }
 .service p{
 	font-size: 14px;
@@ -280,14 +277,13 @@ a.down-btn span.fa.fa-angle-down {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	text-align: center;
+	text-align: relative;
 }
 
 #cta .overlay{
 	background: rgba(34, 34, 34, 0.85);
-	height: auto;
 	min-height: 400px;
-	padding: 8% 0 ;
+	padding: 3% 0 ;
 	color: #ffffff;
 }
 
@@ -318,27 +314,28 @@ a.btn.go-to-btn:hover{
 }
 
 .portfolio-item .hover-bg{
-	height: 45vh;
-	overflow: hidden;
+	height: 22vh;
 	position: relative;
 }
 
 .hover-bg .hover-text {
 	position: absolute;
+	z-index: 0;
+	overflow: hidden;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 10% 0;
+	padding: 1% 0;
 	height: 100%;
 	width: 100%;
-	opacity: 0;
+	opacity: 1;
     transition: all 0.5s;
 }
 .hover-bg .hover-text>h5{
-	opacity: 0;
-	-webkit-transform: translateY(100%);
-            transform: translateY(100%);
+	opacity: 1;
+	-webkit-transform: translateY(0%);
+            transform: translateY(0%);
             transition: all 0.3s;
 }
 .hover-bg:hover .hover-text>h5{
@@ -348,7 +345,7 @@ a.btn.go-to-btn:hover{
             transform: translateY(0);
 }
 .hover-bg .hover-text>.hline{
-	opacity: 0;
+	opacity: 1;
 	-webkit-transform: translateY(0);
             transform: translateY(0);
             transition: all 0.3s;
@@ -356,8 +353,8 @@ a.btn.go-to-btn:hover{
 .hover-bg:hover .hover-text>.hline{
 	opacity: 1;
     -webkit-backface-visibility:hidden;
-   -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+   -webkit-transform: translateY(0%);
+            transform: translateY(0%);
 }
 .hover-bg:hover .hover-text{
 	opacity: 1;
@@ -371,6 +368,7 @@ a.btn.go-to-btn:hover{
 
 .hover-text p.lead{
 	color: #a990a7;
+	position: absolute;
 }
 
 
@@ -407,7 +405,7 @@ a.btn.send-btn:hover{
 }
 
 #spacer {
-	background: url(../img/bg3.jpg);
+	background: url(../img/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -423,22 +421,6 @@ a.btn.send-btn:hover{
 	color: #ffffff;
 }
 
-#graphics {
-	background: url(../img/food_header.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	text-align: center;
-}
-
-#graphics .overlay{
-	background: rgba(34, 34, 34, 0.85);
-	height: auto;
-	min-height: 400px;
-	padding: 8% 0 ;
-	color: #ffffff;
-}
 
 ul, ol{
 	padding: 0;
@@ -503,22 +485,25 @@ ul.clients li{
 	color: #ffffff;
 }
 
-.owl-theme .owl-controls .owl-page span {
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: 2px 5px;
-	filter: Alpha(Opacity=50);
-	opacity: 0.5;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 0;
-	background: #a990a7;
-}
 
 #contact{
-	background: #2e2e2e;
-	padding: 100px 0;
+	min-height: 300px;
+	background: url(../img/bg4.jpg);
+	background-size: cover;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#contact .overlay{
+	padding-top: 4%;
+	background: rgba(34, 34, 34, 0.85);
+	height: auto;
+	overflow: hidden;
+	min-height: 300px;
+	padding: 0% 0 ;
 	color: #ffffff;
 }
 
@@ -660,21 +645,10 @@ nav#footer{
 	height: 100%;
 }
 
-.owl-theme .owl-controls .owl-page span {
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: 2px 5px;
-	filter: Alpha(Opacity=50);
-	opacity: 0.5;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 0;
-	background: #e9980c;
-}
  .owl-carousel .item img{
  	height: 100%;
  }
+
 
 #map1 {
    width: 100%;
@@ -689,7 +663,17 @@ nav#footer{
  }
 
 
+span.fa.fa-facebook-square {
+	padding-right: 15px 
+}
 
+span.fa.fa-instagram {
+	padding-right: 15px 
+}
+
+span.fa.fa-envelope-square {
+	padding-right: 15px 
+}
 
 @media (min-width: 1200px){
 	.container {
@@ -709,5 +693,19 @@ nav#footer{
 		width: 100%;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container4 {
+		width: 25%;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media {
+	.owl-theme .owl-controls {
+		display: none;
 	}
 }
