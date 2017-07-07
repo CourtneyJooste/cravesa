@@ -57,7 +57,7 @@ a:focus{
 }
 #home{
 	height: 100vh;
-	min-height: 710px;	
+	min-height: 710px;
 	position: relative;
 }
 
@@ -96,11 +96,11 @@ a:focus{
 .header-text.btn:hover{
 	color: inherit;
 }
-.header-text.btn:focus, 
-.header-text.btn:active:focus, 
-.header-text.btn.active:focus, 
-.header-text.btn.focus, 
-.header-text.btn:active.focus, 
+.header-text.btn:focus,
+.header-text.btn:active:focus,
+.header-text.btn.active:focus,
+.header-text.btn.focus,
+.header-text.btn:active.focus,
 .header-text.btn.active.focus {
 	outline: thin dotted transparent;
 	outline: none;
@@ -135,7 +135,7 @@ span.typed-cursor {
 	position: relative;
 }
 /*.header-text{
-	margin-top: 20px;	
+	margin-top: 20px;
 	position: absolute;
 	border: 1px solid #ffffff;
 	left: 25%;
@@ -160,15 +160,15 @@ nav#menu span.fa.fa-bars{
 width: 270px;
 z-index: 10;
 }
-.navmenu-default, 
+.navmenu-default,
 .navbar-default .navbar-offcanvas {
 	background-color: #222222;
 	border-color: #a990a7;
 	border: 0;
 }
-.navmenu-default .navmenu-nav>li>a:hover, 
-.navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover, 
-.navmenu-default .navmenu-nav>li>a:focus, 
+.navmenu-default .navmenu-nav>li>a:hover,
+.navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover,
+.navmenu-default .navmenu-nav>li>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a:focus {
 color: #a990a7;
 background-color: transparent;
@@ -178,7 +178,7 @@ position: relative;
 display: block;
 text-align: center;
 }
-.navmenu-default .navmenu-nav>li>a, 
+.navmenu-default .navmenu-nav>li>a,
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
 color: #ffffff;
 text-transform: uppercase;
@@ -188,11 +188,11 @@ line-height: 30px;
 nav#menu span.fa.fa-bars:hover {
 color: #a990a7;
 }
-.navmenu-default .navmenu-nav>.active>a, 
-.navbar-default .navbar-offcanvas .navmenu-nav>.active>a, 
-.navmenu-default .navmenu-nav>.active>a:hover, 
-.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover, 
-.navmenu-default .navmenu-nav>.active>a:focus, 
+.navmenu-default .navmenu-nav>.active>a,
+.navbar-default .navbar-offcanvas .navmenu-nav>.active>a,
+.navmenu-default .navmenu-nav>.active>a:hover,
+.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover,
+.navmenu-default .navmenu-nav>.active>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus {
 color: #;
 background-color: transparent;
@@ -313,9 +313,22 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
+.portfolio-item{
+  margin-bottom: 20px;
+}
+
 .portfolio-item .hover-bg{
-	height: 22vh;
+	height: 220px;
+  background-size: cover;
 	position: relative;
+}
+
+.portfolio-item .hover-bg1{
+  background-image: url('../img/portfolio/01.jpg');
+}
+
+.portfolio-item .hover-bg2{
+  background-image: url('../img/portfolio/02.jpg');
 }
 
 .hover-bg .hover-text {
@@ -331,6 +344,7 @@ a.btn.go-to-btn:hover{
 	width: 100%;
 	opacity: 1;
     transition: all 0.5s;
+    padding-top: 40px;
 }
 .hover-bg .hover-text>h5{
 	opacity: 1;
@@ -507,6 +521,18 @@ ul.clients li{
 	color: #ffffff;
 }
 
+.carousel-bg{
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+  content: ' ';
+}
+
+.item{
+  width: 100%;
+  height: 100%;
+}
 ul.social li{
 	display: inline-block;
 	margin-right: 20px;
@@ -575,28 +601,28 @@ margin-bottom: 30px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
     font-style: italic;
 }
-input:-moz-placeholder, textarea:-moz-placeholder { 
+input:-moz-placeholder, textarea:-moz-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
     font-style: italic;
 }
-input::-moz-placeholder, textarea::-moz-placeholder { 
+input::-moz-placeholder, textarea::-moz-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
     font-style: italic;
 }
-input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
@@ -664,15 +690,15 @@ nav#footer{
 
 
 span.fa.fa-facebook-square {
-	padding-right: 15px 
+	padding-right: 15px
 }
 
 span.fa.fa-instagram {
-	padding-right: 15px 
+	padding-right: 15px
 }
 
 span.fa.fa-envelope-square {
-	padding-right: 15px 
+	padding-right: 15px
 }
 
 @media (min-width: 1200px){
