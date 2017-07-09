@@ -35,10 +35,10 @@ h5{
 	word-spacing: 2px;
 }
 h6{
-	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 13px;
 	word-spacing: 2px;
 	letter-spacing: 2px;
+	color: #a990a7;
 }
 
 p{
@@ -72,6 +72,7 @@ a:focus{
 	top: 0;
 }
 
+
 #home a.down-btn span.fa.fa-chevron-down {
 	font-size: 50px;
 	padding: 10px 5px;
@@ -79,6 +80,10 @@ a:focus{
 	margin-top: 150px;
 	color: #ffffff;
 	cursor: pointer;
+}
+
+.page-scroll{
+	font-size: 13px;
 }
 
 .content{
@@ -483,7 +488,7 @@ ul.clients li{
 }
 
 #testimonials {
-	background: url(../img/bg4.jpg);
+	background: url(../img/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -494,8 +499,8 @@ ul.clients li{
 #testimonials .overlay{
 	background: rgba(34, 34, 34, 0.85);
 	height: auto;
-	min-height: 400px;
-	padding: 5% 0 ;
+	min-height: 300px;
+	padding-top: 70px;
 	color: #ffffff;
 }
 
