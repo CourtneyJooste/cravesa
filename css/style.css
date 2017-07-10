@@ -35,10 +35,9 @@ h5{
 	word-spacing: 2px;
 }
 h6{
-	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 15px;
 	word-spacing: 2px;
-	letter-spacing: 2px;
+	color: #a990a7;
 }
 
 p{
@@ -483,19 +482,20 @@ ul.clients li{
 }
 
 #testimonials {
-	background: url(../img/bg4.jpg);
+	background: url(../img/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	text-align: center;
+	max-height: 400px;
 }
 
 #testimonials .overlay{
 	background: rgba(34, 34, 34, 0.85);
 	height: auto;
-	min-height: 400px;
-	padding: 5% 0 ;
+	max-height: 400px;
+	padding-top: 100px;
 	color: #ffffff;
 }
 
@@ -647,13 +647,13 @@ nav#footer{
 #footer a:hover{
 	color: #a990a7;}
 
-#slider{
+#imageslider{
 	text-align: center;
 	width: auto;
 	height: 100vh;
 }
 
-#slider .item img{
+#imageslider .item img{
     text-align: center;
     display: block;
     width: 100%;
@@ -687,6 +687,7 @@ nav#footer{
    height: 400px;
    background-color: grey;
  }
+
 
 
 span.fa.fa-facebook-square {
