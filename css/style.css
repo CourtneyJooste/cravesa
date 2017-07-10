@@ -35,9 +35,8 @@ h5{
 	word-spacing: 2px;
 }
 h6{
-	font-size: 13px;
+	font-size: 15px;
 	word-spacing: 2px;
-	letter-spacing: 2px;
 	color: #a990a7;
 }
 
@@ -494,13 +493,19 @@ ul.clients li{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	text-align: center;
+	max-height: 400px;
 }
 
 #testimonials .overlay{
 	background: rgba(34, 34, 34, 0.85);
 	height: auto;
+<<<<<<< HEAD
 	min-height: 300px;
 	padding-top: 70px;
+=======
+	max-height: 400px;
+	padding-top: 100px;
+>>>>>>> megan
 	color: #ffffff;
 }
 
@@ -652,13 +657,13 @@ nav#footer{
 #footer a:hover{
 	color: #a990a7;}
 
-#slider{
+#imageslider{
 	text-align: center;
 	width: auto;
 	height: 100vh;
 }
 
-#slider .item img{
+#imageslider .item img{
     text-align: center;
     display: block;
     width: 100%;
@@ -692,6 +697,7 @@ nav#footer{
    height: 400px;
    background-color: grey;
  }
+
 
 
 span.fa.fa-facebook-square {

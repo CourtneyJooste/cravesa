@@ -42,12 +42,15 @@ function main() {
 	 
 	  $("#testimonial").owlCarousel({
 	 
-	      navigation : false, // Show next and prev buttons
-	      slideSpeed : 300,
-	      paginationSpeed : 400,
-	      singleItem:true,
-	      autoHeight : true
-	 
+	      autoPlay: true,
+        loop: true,
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true,
+        autoPlay:3000,
+        stopOnHover:false,
+        goToFirstSpeed:2000,
+        controls: false
 	      // "singleItem:true" is a shortcut for:
 	      // items : 1, 
 	      // itemsDesktop : false,
