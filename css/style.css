@@ -12,6 +12,7 @@ body, html{
 h1{
 	font-weight: 700;
 	font-size: 100px;
+	color: #ffffff;
 }
 
 h2{
@@ -498,14 +499,8 @@ ul.clients li{
 
 #testimonials .overlay{
 	background: rgba(34, 34, 34, 0.85);
-	height: auto;
-<<<<<<< HEAD
-	min-height: 300px;
-	padding-top: 70px;
-=======
 	max-height: 400px;
 	padding-top: 100px;
->>>>>>> megan
 	color: #ffffff;
 }
 
